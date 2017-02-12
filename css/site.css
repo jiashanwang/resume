@@ -1,0 +1,61 @@
+#backImg{position:relative;}
+body{margin:0;padding:0;}
+	
+#p1,#p2{position:absolute;
+	top:25%;
+	left:11%;
+	font-size:3vw;
+	color:#E38D13;
+}
+#p2{top:50%;
+	left:28%;
+}
+.pointer{cursor:pointer;
+			padding:1%;
+			background:#71C3E9;
+			border-radius:50%;
+		}
+#remuse{text-align:center;}
+#remuse>p{font-size:30px;color:#222222;}
+
+}
+
+.size{width:80px;height:80px;}
+#block{background:url(images/11.jpeg);}
+.liner{
+	width:100%;
+	height:500px;
+	background:-moz-linear-gradient(top,#b8c4cb,#0f0;);
+}
+.em{width:7em;}
+#skills li span{font-size:0.8em;}
+#works li{font-size:1em;}
+.center{text-align:center;}
+
+@media screen and (max-width:768px){
+	#project p{font-size:11px;}
+	#works li,#works div{font-size:5px;}
+	#block>div:nth-child(2) ul,#block>div:nth-child(3) ul{
+		padding:0;margin:0;list-style:none;
+	}
+}
+@media screen and (max-width:768px){
+		#works li,#works div{font-size:16px;}
+}
+@media screen and(min-width:1024px){
+	#glyphicon div img{
+		
+		height:6.6em;
+	}
+}
+@media screen and(max-width:768px){
+	#glyphicon div{
+		font-size:13px;
+		text-align:center;
+		
+	}
+	
+	
+}
+
+
